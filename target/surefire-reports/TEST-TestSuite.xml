@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.372" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\91900\eclipse-workspace\QEdgeAPIBatch001\target\test-classes;C:\Users\91900\eclipse-workspace\QEdgeAPIBatch001\target\classes;C:\Users\91900\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\91900\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\91900\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\91900\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\91900\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\91900\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\91900\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\91900\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\91900\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\91900\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\91900\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\91900\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\91900\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\91900\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\91900\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\91900\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\91900\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\91900\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\91900\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\91900\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\91900\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\91900\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\91900\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\91900\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\91900\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\91900\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\91900\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\91900\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\91900\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\91900\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\91900\AppData\Local\Temp\surefire11670350072188714495\surefirebooter-20240830192639511_3.jar C:\Users\91900\AppData\Local\Temp\surefire11670350072188714495 2024-08-30T19-26-38_369-jvmRun1 surefire-20240830192639511_1tmp surefire_0-20240830192639511_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\91900\eclipse-workspace\QEdgeAPIBatch001\target\test-classes;C:\Users\91900\eclipse-workspace\QEdgeAPIBatch001\target\classes;C:\Users\91900\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\91900\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\91900\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\91900\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\91900\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\91900\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\91900\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\91900\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\91900\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\91900\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\91900\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\91900\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\91900\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\91900\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\91900\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\91900\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\91900\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\91900\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\91900\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\91900\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\91900\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\91900\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\91900\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\91900\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\91900\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\91900\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\91900\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\91900\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\91900\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\91900\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\91900"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\91900\eclipse-workspace\QEdgeAPIBatch001"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\91900\AppData\Local\Temp\surefire11670350072188714495\surefirebooter-20240830192639511_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="91900"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\91900\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\91900\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\91900\eclipse-workspace\QEdgeAPIBatch001"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\91900\Documents\SeleniumGrid\Drivers\chromedriver.exe;C:\Users\91900\Documents\SeleniumGrid\Drivers\geckodriver.exe;C:\Users\91900\Documents\SeleniumGrid\Drivers\msedgedriver.exe;C:\Program Files\Java\jdk-17\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\Program Files\Git\cmd;C:\Users\91900\AppData\Local\Microsoft\WindowsApps;C:\Users\91900\AppData\Roaming\npm;C:\Users\91900\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="bearerToken2" classname="practice.Bearer_Auth_Example3" time="7.76">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+422
+HTTP/1.1 422 Unprocessable Entity
+[
+    {
+        "field": "email",
+        "message": "can't be blank"
+    },
+    {
+        "field": "name",
+        "message": "can't be blank"
+    },
+    {
+        "field": "gender",
+        "message": "can't be blank, can be male of female"
+    },
+    {
+        "field": "status",
+        "message": "can't be blank"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="digestAuth" classname="practice.Digest_Auth_Example2" time="1.871">
+    <system-out><![CDATA[Status Code is : 200
+Status Line is : HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="basicAuth" classname="practice.Basic_Auth_Example1" time="2.596">
+    <system-out><![CDATA[<html class="no-js" lang="en">
+  <html>
+    <head>
+      <script src="/js/vendor/298279967.js"/>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width"/>
+      <title>The Internet</title>
+      <link href="/css/app.css" rel="stylesheet"/>
+      <link href="/css/font-awesome.css" rel="stylesheet"/>
+      <script src="/js/vendor/jquery-1.11.3.min.js"/>
+      <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"/>
+      <script src="/js/foundation/foundation.js"/>
+      <script src="/js/foundation/foundation.alerts.js"/>
+      <script>
+      $(document).foundation();
+    </script>
+    </head>
+    <body>
+      <div class="row">
+        <div class="large-12 columns" id="flash-messages"/>
+      </div>
+      <div class="row">
+        <a shape="rect" href="https://github.com/tourdedave/the-internet">
+          <img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"/>
+        </a>
+        <div class="large-12 columns" id="content">
+          <div class="example">
+            <h3>Basic Auth</h3>
+            <p>
+    Congratulations! You must have the proper credentials.
+  </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="page-footer">
+        <div class="large-4 large-centered columns">
+          <hr/>
+          <div style="text-align: center;">
+Powered by             <a shape="rect" target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
+
+==============================================
+
+<html class="no-js" lang="en">
+  <html>
+    <head>
+      <script src="/js/vendor/298279967.js"/>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width"/>
+      <title>The Internet</title>
+      <link href="/css/app.css" rel="stylesheet"/>
+      <link href="/css/font-awesome.css" rel="stylesheet"/>
+      <script src="/js/vendor/jquery-1.11.3.min.js"/>
+      <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"/>
+      <script src="/js/foundation/foundation.js"/>
+      <script src="/js/foundation/foundation.alerts.js"/>
+      <script>
+      $(document).foundation();
+    </script>
+    </head>
+    <body>
+      <div class="row">
+        <div class="large-12 columns" id="flash-messages"/>
+      </div>
+      <div class="row">
+        <a shape="rect" href="https://github.com/tourdedave/the-internet">
+          <img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"/>
+        </a>
+        <div class="large-12 columns" id="content">
+          <div class="example">
+            <h3>Basic Auth</h3>
+            <p>
+    Congratulations! You must have the proper credentials.
+  </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="page-footer">
+        <div class="large-4 large-centered columns">
+          <hr/>
+          <div style="text-align: center;">
+Powered by             <a shape="rect" target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
+<html class="no-js" lang="en">
+  <html>
+    <head>
+      <script src="/js/vendor/298279967.js"/>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width"/>
+      <title>The Internet</title>
+      <link href="/css/app.css" rel="stylesheet"/>
+      <link href="/css/font-awesome.css" rel="stylesheet"/>
+      <script src="/js/vendor/jquery-1.11.3.min.js"/>
+      <script src="/js/vendor/jquery-ui-1.11.4/jquery-ui.js"/>
+      <script src="/js/foundation/foundation.js"/>
+      <script src="/js/foundation/foundation.alerts.js"/>
+      <script>
+      $(document).foundation();
+    </script>
+    </head>
+    <body>
+      <div class="row">
+        <div class="large-12 columns" id="flash-messages"/>
+      </div>
+      <div class="row">
+        <a shape="rect" href="https://github.com/tourdedave/the-internet">
+          <img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"/>
+        </a>
+        <div class="large-12 columns" id="content">
+          <div class="example">
+            <h3>Basic Auth</h3>
+            <p>
+    Congratulations! You must have the proper credentials.
+  </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="page-footer">
+        <div class="large-4 large-centered columns">
+          <hr/>
+          <div style="text-align: center;">
+Powered by             <a shape="rect" target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
+200
+]]></system-out>
+  </testcase>
+  <testcase name="bearerToken2" classname="practice.Bearer_Auth_Example4" time="0.756">
+    <system-out><![CDATA[422
+HTTP/1.1 422 Unprocessable Entity
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]
+]]></system-out>
+  </testcase>
+</testsuite>
